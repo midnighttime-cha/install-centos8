@@ -34,3 +34,8 @@ enabled=1
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
 ```
+จากนั้น run คำสั่ง
+```bash
+sudo yum clean all
+sudo yum makecache
+```
