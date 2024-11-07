@@ -9,6 +9,10 @@ Error: Failed to download metadata for repo 'extras': Cannot prepare internal mi
 ```
 ให้ทำการแก้ไขไฟล์ `/etc/yum.repos.d/CentOS-Base.repo` โดยใส่คำสั่งต่อไปนี้
 ```bash
+nano /etc/yum.repos.d/CentOS-Base.repo
+```
+
+```bash
 [baseos]
 name=CentOS-8 - BaseOS
 baseurl=http://vault.centos.org/8.5.2111/BaseOS/x86_64/os/
